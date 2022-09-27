@@ -12,6 +12,7 @@
         section{
             padding: 3.75rem 0;
         }
+
     </style>
 
 </head>
@@ -234,7 +235,7 @@
                 <p class="lead">What my students have said about the book...</p>
             </div>
 
-            <div class="row justify-content-center" >
+            <div class="row justify-content-center my-5" >
                 <div class="col-lg-8">
 
                     <div class="list-group">
@@ -296,6 +297,76 @@
 
         </div>
     </section>
+
+    <!-- contact form -->
+
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="">
+                        <label for="email" class="form-label">Email Address:</label>
+                        
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="e.g. mario@example.com">
+                        </div>
+                     
+
+                        <label for="name" class="form-label">Name</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name" placeholder="e.g. Mario">
+                        </div>
+                        
+                  
+
+                        
+                        <label for="subject" class="form-label">What is your question about?</label>
+
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-right-dots-fill"></i>
+                            </span>
+
+                            <select name="" id="subject" class="form-select">
+                                <option value="pricing">Pricing query</option>
+                                <option value="content">Content query</option>
+                                <option value="other">Other query</option>
+                            </select>
+                          
+                        </div>
+
+                      
+
+                     
+                        <div class="form-floating mb-4 mt-5">
+                            <textarea name="" id="query" class="form-control h-50"></textarea>
+                            <label for="query">You query...</label>
+                        </div>
+
+                        <div class="md-4 text-center">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                       
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
    
     
 
