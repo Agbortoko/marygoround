@@ -1,0 +1,22 @@
+{
+  "name": "marygoround",
+  "version": "1.0.0",
+  "description": "This design is just a demo i need to use for practicing WordPress theme development, nothing special!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agbortoko/marygoround.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agbortoko/marygoround/issues"
+  },
+  "homepage": "https://github.com/Agbortoko/marygoround#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
