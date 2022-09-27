@@ -4,6 +4,16 @@ $primary: hsl(42, 55%, 49%);
 $light: hsl(44, 73%, 94%);
 $font-family-sans-serif: "Open sans";
 
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+
+$custom-theme-colors: (
+    "altlight": hsl(268, 60%, 95%),
+    "altdark": hsl(266, 63%, 35%)
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
 // import bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
